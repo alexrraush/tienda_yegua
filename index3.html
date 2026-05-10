@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="cuerpo3">
+    
+<div class="formulario">
+<form>
+    <h2>FORMULARIO</h2>
+        <p>NOMBRE <input type="text" id="nombre"></p>
+        <p>APELLIDO <input type="text" id="apellido"></p>
+        <p>TELEFONO <input type="number" id="telefono"></p>
+        <p>TALLE
+        <select id="talle">
+            <option value="">SELECCIONAR</option>    
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+        </select>
+        </p>
+        <p>COMENTARIOS 
+            <textarea></textarea>
+        </p>
+
+    <button type="button" onclick="enviar()">ENVIAR</button>
+</form>
+</div>
+
+
+<div id="ig">
+<a href="https://www.instagram.com/yegua.studio/" target="_blank">
+    <img src="img/social.png">
+</a>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>

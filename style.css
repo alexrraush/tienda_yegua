@@ -1,0 +1,215 @@
+/*IMAGEN DE FONDO*/
+body{
+    background-image:url("img/_DSC0371.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* TITULO */
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkred;
+    text-align: center;
+    background-color: beige;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 500px;
+    margin: auto;
+}
+
+/* ESTILOS PARA EL DIV DE PEDIR DATOS*/
+.entrar{
+    background-color: beige;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px
+}
+
+.entrar p{
+    font-family: Arial, sans-serif;
+    color: darkred;
+    font-size: 18px;
+}
+
+.entrar input{
+    width: 90%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.entrar button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkred;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+
+/*BODY 2 FONDO*/
+
+.cuerpo2{
+    background-image: url("img/DSC_0329.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tarjetas{
+    background-color: beige;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 20px;
+}
+
+/* AGRANDA LA TARJETA CUANDO PASAS POR ARRIBA*/
+.tarjetas:hover{
+    transform: scale(1.03);
+}
+
+.tarjetas img{
+    width: 100%;
+    height: 380px;
+    object-fit: cover; /*ADAPTA LA IMAGEN SIN QUE SE DEFORME*/
+    border-radius: 15px;
+}
+
+.tarjetas h2{
+    font-size: 24px;
+    margin-top: 15px;
+    color: #333;
+}
+
+.tarjetas p{
+    font-size: 22px;
+    color: #666;
+    margin: 10px;
+}
+
+.tarjetas button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/*CAMBIA EL COLOR DEL BOTON CUANDO PASA EL CURSOR*/
+.tarjetas button:hover{
+    background-color: #444;
+}
+
+/*ADAPTA LAS TARJETAS*/
+.contenedor-tarjetas{
+    display: flex; /*TARJETAS UNA AL LADO DE LA OTRA*/
+    justify-content: center; /*CENTRA TODAS LAS TARJETAS*/
+    flex-wrap: wrap; /*HACE QUE VAYAN BAJANDO*/
+}
+
+
+#contactanos{
+    background-color: beige;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    margin-top: 70px;
+    margin-left: 850px;
+}
+
+#contactanos:hover{
+    background-color: darkred;
+    transition: 0.3s;
+    transform: scale(1.03);
+}
+
+
+
+
+
+/*BODY 3 FONDO*/
+.cuerpo3{
+    background-image: url(img/DSC_0345.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 150% 70%;
+}
+
+
+
+/*ESTILOS PARA EL FORMULARIO*/
+.formulario{
+    width: 400px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.formulario form{
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formulario h2{
+    text-align: center;
+}
+
+.formulario input{
+    width: 100%;
+    height: 30px;
+}
+
+.formulario select{
+    width: 100%;
+    height: 30px;
+}
+
+.formulario textarea{
+    width: 100%;
+    height: 80px;
+}
+
+.formulario button{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+/*LOGO DE INSTA*/
+#ig{
+    text-align: right;
+}
+
+#ig img{
+    width: 60px;
+    height: 60px;
+    margin-top: 100px;
+}
