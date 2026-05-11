@@ -128,6 +128,12 @@ h1{
 }
 
 
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
 #contactanos{
     background-color: beige;
     border: none;
@@ -137,8 +143,6 @@ h1{
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
-    margin-top: 70px;
-    margin-left: 850px;
 }
 
 #contactanos:hover{
